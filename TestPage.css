@@ -661,6 +661,100 @@ hr {
     margin-left: 5%;
 }
 
+.middle-section {
+    width: 60.9375%;
+    height: 44.166vw;
+    background-color: #ffffff;
+    position: absolute;
+    top: 56.1979166vw;
+    left:19.531%;
+}
+
+.pic-grid {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+.pic-section {
+    display: grid;
+}
+
+.pic {
+    justify-self: center;
+    margin-top: 1.35416vw;
+}
+
+.pic1 {
+    height: 4.53125vw;
+}
+
+.pic2 {
+    height: 4.4270vw;
+}
+
+.pic3 {
+    height: 4.375vw;
+}
+
+.pic4 {
+    height: 6.7708vw;
+}
+
+.pic5 {
+    height: 4.5833vw;
+}
+
+.pic6 {
+    height: 4.4270vw;
+}
+
+.pic7 {
+    height: 4.47916vw;
+}
+
+.pic8 {
+    height: 5.26041vw;
+}
+
+.pic9 {
+    height: 4.42708vw;
+}
+
+.pic-title {
+    font-size: 24px;
+    color: #808080;
+    font-family: "Helvetica Neue", sans-serif;
+    text-align: center;
+    margin-top: 0.3125vw;
+}
+
+.pic-text {
+    font-size: 15px;
+    line-height: 21px;
+    color: #808080;
+    font-family: "Helvetica Neue", sans-serif;
+    text-align: center;
+    margin-top: 1.14583vw;
+}
+
+.pic2-section, .pic5-section, .pic8-section {
+    width: 99%;
+    border-left: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+}
+
+.pic2-section {
+    margin-top: -2.1354vw;
+    padding-top: 2.1354vw;
+    background-color: #ffffff;
+}
+
+.pic8-section {
+    padding-bottom: 1.708vw;
+    margin-bottom: -1.708vw;
+    background-color: #ffffff;
+}
+
 
 @media only screen and (max-width: 2094px) {
     .quote-button, .ql, .address, .phone, .email-title, .email, .get-dir, .arrow {
@@ -725,11 +819,11 @@ hr {
     .about-title {
         font-size: 20px;
     }
-    .about-text {
+    .about-text, .pic-text {
         font-size: 10px;
         line-height: 13px;
     }
-    .section-title {
+    .section-title, .pic-title  {
         font-size: 18px;
     }
     .section-text, .section-button  {
