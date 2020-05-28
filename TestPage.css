@@ -590,6 +590,78 @@ hr {
     width: 10.2604vw;
 }
 
+.aboutus-container {
+    position: absolute;
+    top: 109.1145vw;
+    left:20.520%;
+    display: grid;
+    grid-template-columns: max-content min-content;
+}
+
+.about-title {
+    font-size: 26px;
+    color: #ffffff;
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: bold;
+}
+
+.about-text {
+    font-size: 15px;
+    line-height: 21px;
+    color: #ffffff;
+    font-family: "Helvetica Neue", sans-serif;
+    margin-top: 1.4583vw;
+}
+
+.inline {
+    display: inline-flex;
+    margin-top: 1.4583vw;
+    align-items: center;
+}
+
+.brochure-icon {
+    height: 2.9166vw;
+    margin-left: 1.041666vw;
+    margin-right: 1.04166vw;
+}
+
+.contact-icon {
+
+    height: 2.4166vw;
+    margin-left: 1.041666vw;
+    margin-right: 1.04166vw;
+}
+
+.section-title {
+    font-size: 24px;
+    color: #ffffff;
+    font-family: "Helvetica Neue", sans-serif;
+    width: 115.41666%;
+}
+
+.section-text {
+    font-size: 14px;
+    color: #ffffff;
+    font-family: "Helvetica Neue", sans-serif;
+    width: max-content;
+}
+
+.section-button {
+    background-color: #00000000;
+    border: 2px solid #ffffff;    
+    font-size: 14px;
+    color: #ffffff;
+    font-family: "Helvetica Neue", sans-serif;
+    min-width: 8.125vw;
+    height: 1.9791vw;
+    margin-left: 3.5833vw;
+}
+
+.about-section {
+    margin-left: 5%;
+}
+
+
 @media only screen and (max-width: 2094px) {
     .quote-button, .ql, .address, .phone, .email-title, .email, .get-dir, .arrow {
         font-size: 8px;
@@ -649,5 +721,18 @@ hr {
     .testimonial {
         font-size: 9px;
         line-height: 13px;
+    }
+    .about-title {
+        font-size: 20px;
+    }
+    .about-text {
+        font-size: 10px;
+        line-height: 13px;
+    }
+    .section-title {
+        font-size: 18px;
+    }
+    .section-text, .section-button  {
+        font-size: 10px;
     }
 }
