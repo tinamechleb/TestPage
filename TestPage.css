@@ -788,6 +788,10 @@ hr {
 
 @media only screen and (max-width: 2094px) {
 
+    .col-4 {
+        display: grid;
+    }
+
     .quote-button, .ql, .address, .phone, .email-title, .email, .get-dir, .arrow {
         font-size: 0.45vw;
     line-height: 0.8vw;
