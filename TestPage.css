@@ -363,6 +363,7 @@ hr {
 
 .footer-grid {
     width: 59.375%;
+    height: max-content;
     display: grid;
     grid-template-columns: 19% 33.24% 25.789% 21.736%;
 }
@@ -778,15 +779,19 @@ hr {
     background-color: #ffffff;
 }
 
+.col {
+    height: max-content;
+}
 
 
 
 @media only screen and (max-width: 2094px) {
+
     .quote-button, .ql, .address, .phone, .email-title, .email, .get-dir, .arrow {
-        font-size: 8px;
+        font-size: 0.65vw;
     }
     .quote-form, .name, .subject, .desc, .quick-links, .contact-us {
-        font-size: 11px;
+        font-size: 0.7vw;
     }
     .fb {
         width: 6px;
