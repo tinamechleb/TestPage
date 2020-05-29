@@ -99,7 +99,7 @@ hr {
 .section {
     transform: rotate(270deg);
     text-transform: uppercase;
-    width: max-content;
+    width: 47vh;
     height: 1.8229vw;
     font-size: 12px;
     letter-spacing: 6px;
@@ -115,12 +115,12 @@ hr {
 
 .section-2 {
     top: 123.229vw;
-    left: 5vw;
+    /* left: 5vw; */
 }
 
 .section-3 {
     top: 153.75vw;
-    left: 4vw;
+    /* left: 4vw; */
 }
 
 .picture-1 {
@@ -192,20 +192,23 @@ hr {
     border: 1px solid #ffffff;
 }
 
-.sidenav .closebtn {
+.sidenav {
     position: absolute;
     top: 0;
     font-size: 36px;
 }
 
 .closebtn {
+    position: absolute;
     top: 7.29166vw !important;
     left: 91.5625% !important;
     text-transform: uppercase;
     letter-spacing: 7px;
+    font-size: 15px;
     color: #7a072a;
     font-family: "Helvetica Neue", sans-serif;
     z-index: 9999999999999999999;
+    cursor: pointer;
 }
 
 .sidenav a {
@@ -626,8 +629,11 @@ hr {
 
 .inline {
     display: inline-flex;
-    margin-top: 1.4583vw;
     align-items: center;
+}
+
+.inline-1 {
+    margin-top: 1.4583vw;
 }
 
 .brochure-icon {
@@ -743,6 +749,8 @@ hr {
     background-color: #ffffff;
     position: unset;
     width: 110%;
+    margin-top: 2.5vw;
+    margin-bottom: 1.25vw;
 }
 
 .pic-text {
@@ -813,14 +821,14 @@ hr {
     .see-more-button {
         font-size: 9px;
     }
+    .sidenav a {
+        font-size: 25px;
+    }
     .closebtn {
         font-size: 13px;
     }
     .language {
         font-size: 18px;
-    }
-    .sidenav a {
-        font-size: 25px;
     }
     .testimonials {
         font-size: 20px;
@@ -896,5 +904,8 @@ hr {
 }
 .language {
     font-size: 11px;
+}
+.copyrights {
+    font-size: 7px;
 }
 }
