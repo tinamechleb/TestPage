@@ -516,6 +516,7 @@ hr {
     color: #ffffff;
     font-family: "Helvetica Neue", sans-serif;
     width: 24.561%;
+    height: 1.5625vw;
     border: 2px solid #ffffff;
     background-color: transparent;
     /* margin-left: 21.052%; */
@@ -788,7 +789,7 @@ hr {
 @media only screen and (max-width: 2094px) {
 
     .quote-button, .ql, .address, .phone, .email-title, .email, .get-dir, .arrow {
-        font-size: 0.65vw;
+        font-size: 0.45vw;
     }
     .quote-form, .name, .subject, .desc, .quick-links, .contact-us {
         font-size: 0.7vw;
@@ -860,38 +861,38 @@ hr {
 
 @media only screen and (max-width: 1218px) {
     .ppe {
-        font-size: 23px;
-        line-height: 29px;
+        font-size: 3vw;
+        line-height: 3vw;
     }
     .ppe-text {
-        font-size: 7px;
-        line-height: 12px;
+        font-size: 0.9vw;
+        line-height: 1.5vw;
     }
     .see-more-button {
-        font-size: 6px;
+        font-size: 0.6vw;
     }
     .testimonial {
-    font-size: 7px;
-    line-height: 12px;
+    font-size: 1vw;
+    line-height: 2vw;
 }
 .testimonials-name {
     font-size: 7px;
 }
 .testimonials-quote {
-    font-size: 11px;
+    font-size: 1.5vw;
 }
 .testimonials {
-    font-size: 17px;
+    font-size: 2vw;
 }
-.about-text, .pic-text {
-    font-size: 7px;
-    line-height: 11px;
+.testimonials-- {
+    font-size: 1vw;
 }
 .section-text, .section-button {
     font-size: 5px;
 }
-.section-title, .pic-title {
-    font-size: 8px;
+.about-text, .pic-text {
+    font-size: 0.7vw;
+    line-height: 1.2vw;
 }
 .menu-link {
     font-size: 7px;
@@ -907,5 +908,8 @@ hr {
 }
 .copyrights {
     font-size: 7px;
+}
+.section-title, .pic-title {
+    font-size: 1vw;
 }
 }
