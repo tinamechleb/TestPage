@@ -790,21 +790,22 @@ hr {
 
     .quote-button, .ql, .address, .phone, .email-title, .email, .get-dir, .arrow {
         font-size: 0.45vw;
+    line-height: 0.8vw;
     }
     .quote-form, .name, .subject, .desc, .quick-links, .contact-us {
         font-size: 0.7vw;
     }
     .fb {
-        width: 6px;
+        width: 0.5vw;
     }
     .twitter {
-        width: 12px;
+        width: 0.9vw;
     }
     .insta {
-        width: 11px;
+        width: 0.8vw;
     }
     .wtsp {
-        width: 11px;
+        width: 0.8vw;
     }
     .ppe {
         font-size: 31px;
