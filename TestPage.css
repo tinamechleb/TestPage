@@ -595,7 +595,7 @@ hr {
 }
 
 .images-grid {
-    margin-left: 14%;
+    margin-left: 10%;
     display: grid;
     grid-template-columns: 10.7291vw 10.7291vw;
 }
