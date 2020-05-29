@@ -199,7 +199,7 @@ hr {
 .closebtn {
     position: absolute;
     top: 7.29166vw !important;
-    left: 91.5625% !important;
+    right: 5.416vw ;
     text-transform: uppercase;
     letter-spacing: 7px;
     font-size: 15px;
@@ -234,7 +234,7 @@ hr {
     height: 10px;
     position: absolute;
     top: 7.55vw;
-    left: 90.677083%;
+    right: 16.01vw;
 }
 
 .language {
@@ -900,16 +900,20 @@ hr {
     line-height: 1.2vw;
 }
 .menu-link {
-    font-size: 7px;
+    font-size: 0.7vw;
 }
 .sidenav .closebtn {
-    font-size: 10px;
+    font-size: 1vw;
 }
 .sidenav a {
-    font-size: 15px;
+    font-size: 2vw;
+}
+.back {
+    width: 0.6vw;
+    top:7vw;
 }
 .language {
-    font-size: 11px;
+    font-size: 1.2vw;
 }
 .copyrights {
     font-size: 7px;
