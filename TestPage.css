@@ -103,11 +103,24 @@ hr {
     height: 1.8229vw;
     font-size: 12px;
     letter-spacing: 6px;
-    line-height: 55px;
     color: #ffffff;
     font-family: "Arial";
-    margin-top: 7.1875vw;
-    margin-left: -7.8125%;
+    position: absolute;
+}
+
+.section-1 {
+    top: 32.4739vw;
+    left: -7.942708333333333vw;
+}
+
+.section-2 {
+    top: 123.229vw;
+    left: 5vw;
+}
+
+.section-3 {
+    top: 153.75vw;
+    left: 4vw;
 }
 
 .picture-1 {
@@ -786,7 +799,7 @@ hr {
         line-height: 19px;
     }
     .section {
-        font-size: 10px;
+        font-size: 8px;
     }
     .menu-link {
         font-size: 13px;
