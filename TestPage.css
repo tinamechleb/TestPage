@@ -219,7 +219,7 @@ hr {
 
 .sidenav {
     background-color: #ffffff;
-    height: 56.82291vw;
+    height: 56.82291vw !important;
     width: 0;
     position: fixed;
     z-index: 1000000;
